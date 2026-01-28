@@ -74,10 +74,7 @@
       <div style="margin-top: 1.5rem;"></div>
 
       <p>
-        The objective of this study is to classify protein particle images into ten distinct antibody
-        categories, anonymized as mAb1 through mAb10.
-        Due to high visual similarity among particles, the task presents inherent ambiguity,
-        making it well-suited for analyzing robustness and sensitivity in deep learning models.
+        This task focuses on optimizing a deep learning model for classifying protein particles into ten categories (mAb1–mAb10) by analyzing approximately 15 experimental sets with varying normalization and transformation protocols. To address the inherent challenge of high inter-class similarity, the dataset was rigorously partitioned and trained using dynamic augmentations to ensure robust feature extraction and generalization. Performance is evaluated through macro-averaged F1-score, precision, and recall, while heatmaps are utilized to visually confirm that the model identifies the correct morphological characteristics for classification.
       </p>
     </div>
 
@@ -132,9 +129,7 @@
        style="width: 85%; height: auto;">
 
   <figcaption class="is-size-6 has-text-grey" style="margin-top: 0.75rem;">
-    Figure X. Qualitative heatmap visualization illustrating relative model attention
-    across antibody classes (mAb1–mAb10). The heatmap highlights consistent and
-    divergent response patterns observed under the optimized training configuration.
+    Figure 1: This heatmap illustrates the percentages of correct classifications for the ten antibody classes (mAb1–mAb10) achieved in the best test set.
   </figcaption>
 </figure>
 
